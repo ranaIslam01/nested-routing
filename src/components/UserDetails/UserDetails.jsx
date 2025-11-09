@@ -6,7 +6,7 @@ const UserDetails = () => {
   const {name, website} = user;
   return (
     <div>
-      <h1 className='text-red-500'>This is user details</h1>
+      <h1 className='text-red-600 font-semibold italic font-serif'>This is user details</h1>
       <p> Name: {name}</p>
       <p>Website : {website}</p>
 
