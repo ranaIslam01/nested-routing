@@ -5,7 +5,7 @@ import "./Header.css";
 const Header = () => {
   return (
     <div>
-      <h3 className="text-center mb-4 font-bold">This is header components</h3>
+      <h3 className="text-center mb-6 font-bold">This is header Component</h3>
       <nav className="bg-black text-white px-4 py-2 rounded-2xl">
         <NavLink to="/">Home</NavLink>
         <NavLink to="/mobiles">Mobiles</NavLink>

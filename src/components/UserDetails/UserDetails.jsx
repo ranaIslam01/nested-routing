@@ -6,9 +6,11 @@ const UserDetails = () => {
   const {name, website} = user;
   return (
     <div>
-      <h1 className='text-red-600 font-semibold italic font-serif'>This is user details</h1>
-      <p> Name: {name}</p>
+      <h1 className='text-red-600 font-semibold italic font-serif mb-4'>This is user details</h1>
+      <div className='border bg-black text-white font-medium px-10 py-4 rounded-2xl'>
+        <p> Name: {name}</p>
       <p>Website : {website}</p>
+      </div>
 
     </div>
   );
