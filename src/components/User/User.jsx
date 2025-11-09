@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 const User = ({user}) => {
   const {id,name,phone,email,website} = user;
   return (
-    <div className='border px-10 py-8 my-4 bg-black text-white rounded-2xl'>
+    <div className='border px-10 py-8 my-4 bg-black space-y-4 text-white rounded-2xl'>
       <p>{id}</p>
       <p>Name: {name}</p>
       <p>Phone: {phone}</p>
