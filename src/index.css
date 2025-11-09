@@ -1,0 +1,14 @@
+/* Tailwindcss Install  */
+@import "tailwindcss";
+
+
+/* Mobile Device Responsive */
+@media (max-width: 440px) {
+  .containerMobile {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    padding: 10px 10px;
+  }
+}
