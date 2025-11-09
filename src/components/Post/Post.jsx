@@ -6,7 +6,10 @@ const Post = ({post}) => {
     <div  className="border flex flex-col justify-center items-center  px-10 py-3 rounded-2xl mt-10 mx-10">
       <p>{id}</p>
       <h1 >{title}</h1>
-      <Link className="text-blue-700 font-bold my-4" to= {`/posts/${id}`}>Show Details</Link>
+      <div className="flex gap-x-6 my-4">
+        <Link className="btn" to= {`/posts/${id}`}>Show Details</Link>
+        <Link className="btn" to= "/users">Visit Users</Link>
+      </div>
     </div>
   );
 };

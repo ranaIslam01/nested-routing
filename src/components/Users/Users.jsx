@@ -7,7 +7,7 @@ const Users = () => {
 
   return (
     <div>
-      <h1 className='text-red-600 font-semibold italic font-serif'>This is users</h1>
+      <h1 className='text-red-600 font-semibold italic font-serif text-center'>This is users</h1>
       <div>
         {users.map((user) => (
           <User key={user.id} user={user}></User>
