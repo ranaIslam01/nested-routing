@@ -5,6 +5,7 @@ const User = ({user}) => {
   const {id,name,phone,email,website} = user;
   return (
     <div className='border px-4 py-5 my-4 bg-black text-white rounded-2xl'>
+      <p>{id}</p>
       <p>Name: {name}</p>
       <p>Phone: {phone}</p>
       <p>Email: {email}</p>
